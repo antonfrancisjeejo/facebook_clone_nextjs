@@ -1,0 +1,25 @@
+{
+  "name": "facebook-nextjs-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.1",
+    "firebase": "^8.7.0",
+    "next": "11.0.1",
+    "next-auth": "^3.27.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^3.0.4",
+    "tailwind-scrollbar-hide": "^1.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
