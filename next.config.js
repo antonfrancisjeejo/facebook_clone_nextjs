@@ -1,4 +1,9 @@
 module.exports = {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.optimization.splitChunks.cacheGroups = {};
+    config.optimization.minimize = true;
+    return config;
+  },
   images: {
     domains: [
       "cdn0.iconfinder.com",
